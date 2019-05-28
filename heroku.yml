@@ -3,4 +3,4 @@ build:
   languages:
     - python
 run:
-web: 'gunicorn app:flask_app' 
+web: 'gunicorn manage:run 
